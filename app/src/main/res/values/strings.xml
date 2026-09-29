@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Active40</string>
+
+    <!-- Alanavigaatio -->
+    <string name="nav_today">Today</string>
+    <string name="nav_history">History</string>
+    <string name="nav_progress">Progress</string>
+    <string name="nav_recovery">Recovery</string>
+
+    <!-- Yleiset toiminnot -->
+    <string name="action_back">Back</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_save">Save</string>
+    <string name="action_add">Add</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_discard">Discard</string>
+    <string name="action_rename">Rename</string>
+    <string name="action_archive">Archive</string>
+    <string name="action_restore">Restore</string>
+    <string name="action_move_up">Move %1$s up</string>
+    <string name="action_move_down">Move %1$s down</string>
+    <string name="action_remove_item">Remove %1$s</string>
+    <string name="action_options_for">Options for %1$s</string>
+    <string name="settings">Settings</string>
+
+
+    <!-- Asetukset -->
+    <string name="settings_manage_exercises">Manage exercises</string>
+    <string name="settings_manage_routines">Manage routines</string>
+    <string name="settings_symptom_tracking">Midlife symptom tracking</string>
+    <string name="settings_symptom_tracking_detail">Record symptoms such as night sweats or joint aches in your daily check-in. Turning this off hides symptom data but does not delete it.</string>
+
+    <!-- Liikkeet -->
+    <string name="exercises_title">Exercises</string>
+    <string name="exercises_add">Add exercise</string>
+    <string name="exercises_new_title">New exercise</string>
+    <string name="exercises_rename_title">Rename exercise</string>
+    <string name="exercises_name_label">Exercise name</string>
+    <string name="exercises_name_taken">An exercise with this name already exists.</string>
+    <string name="exercises_archived_section">Archived</string>
+    <string name="exercises_archived_hint">Archived exercises are hidden from lists. Your logged sets are kept.</string>
+    <string name="exercises_search_label">Search exercises</string>
+    <string name="exercises_create_named">Create \"%1$s\"</string>
+    <string name="exercises_none_found">No exercises found.</string>
+
+    <!-- Rutiinit -->
+    <string name="routines_title">Routines</string>
+    <string name="routines_new">New routine</string>
+    <string name="routines_empty">No routines yet. A routine is a saved list of exercises you can start a session from.</string>
+    <string name="routines_delete_title">Delete routine?</string>
+    <string name="routines_delete_message">\"%1$s\" will be deleted. Sessions you already logged are kept.</string>
+    <string name="routine_edit_new_title">New routine</string>
+    <string name="routine_edit_title">Edit routine</string>
+    <string name="routine_name_label">Routine name</string>
+    <string name="routine_exercises_section">Exercises</string>
+    <string name="routine_no_exercises">Add at least one exercise.</string>
+    <string name="routine_target_sets">Sets</string>
+    <string name="routine_target_reps">Reps</string>
+    <string name="routine_targets_optional">Target sets and reps are optional.</string>
+    <string name="routine_discard_title">Discard changes?</string>
+    <string name="routine_discard_message">Your changes to this routine will not be saved.</string>
+    <plurals name="routine_exercise_count">
+        <item quantity="one">%d exercise</item>
+        <item quantity="other">%d exercises</item>
+    </plurals>
+    <!-- Yksiköt -->
+    <string name="unit_kg">kg</string>
+    <string name="unit_lb">lb</string>
+    <string name="unit_km">km</string>
+    <string name="unit_mi">mi</string>
+
+    <!-- Today (vaihe 6 täydentää) -->
+    <string name="log_strength">Log strength</string>
+    <string name="log_run">Log run</string>
+    <string name="session_in_progress">Session in progress</string>
+
+    <!-- Voimaharjoituksen aloitus -->
+    <string name="start_empty_session">Empty session</string>
+    <string name="start_routines_heading">Routines</string>
+
+    <!-- Voimaharjoitus -->
+    <string name="strength_session">Strength session</string>
+    <string name="session_time_description">Session time %1$s</string>
+    <string name="session_menu">Session options</string>
+    <string name="session_add_note">Add note</string>
+    <string name="session_edit_note">Edit note</string>
+    <string name="session_discard">Discard session</string>
+    <string name="session_discard_title">Discard this session?</string>
+    <string name="session_discard_message">All sets in this session will be deleted.</string>
+    <string name="session_rename_title">Rename session</string>
+    <string name="session_name_label">Session name</string>
+    <string name="session_note_label">Note</string>
+    <string name="session_no_exercises">Add an exercise to start logging sets.</string>
+    <string name="last_time">Last time: %1$s</string>
+    <string name="first_time">First time</string>
+    <string name="last_time_uniform">%1$d × %2$d at %3$s %4$s</string>
+    <string name="last_time_uniform_bodyweight">%1$d × %2$d</string>
+    <string name="last_time_same_weight">%1$s at %2$s %3$s</string>
+    <string name="last_time_item">%1$d at %2$s %3$s</string>
+    <string name="set_progress">%1$d / %2$d</string>
+    <string name="set_progress_description">%1$d of %2$d sets done</string>
+    <string name="set_header_set">Set</string>
+    <string name="set_header_reps">Reps</string>
+    <string name="set_header_rpe">RPE</string>
+    <string name="set_weight_description">Set %1$d weight in %2$s</string>
+    <string name="set_reps_description">Set %1$d reps</string>
+    <string name="set_rpe_description">Set %1$d RPE, optional</string>
+    <string name="set_mark_done">Mark set %1$d done</string>
+    <string name="add_set">Add set</string>
+    <string name="remove_set">Remove set</string>
+    <string name="exercise_move_up">Move up</string>
+    <string name="exercise_move_down">Move down</string>
+    <string name="exercise_remove">Remove exercise</string>
+    <string name="finish_session">Finish session</string>
+    <string name="rest_label">Rest %1$s</string>
+    <string name="rest_length">Rest timer %1$s</string>
+    <string name="rest_shorter">Shorter rest</string>
+    <string name="rest_longer">Longer rest</string>
+    <string name="rest_skip">Skip rest</string>
+
+    <!-- Harjoituksen päättäminen -->
+    <plurals name="finish_undone_sets">
+        <item quantity="one">%d set not marked done will be discarded.</item>
+        <item quantity="other">%d sets not marked done will be discarded.</item>
+    </plurals>
+    <string name="finish_no_sets">No sets are marked done yet. Mark at least one set done, or discard the session from the menu.</string>
+    <string name="effort_label">Overall effort</string>
+    <string name="effort_optional">Optional, 1 is very easy and 10 is maximal.</string>
+    <string name="finish_save_as_routine">Also save as a new routine</string>
+    <string name="routine_name_label_new">New routine name</string>
+
+    <!-- Palautusajastimen ilmoitus -->
+    <string name="rest_channel_name">Rest timer</string>
+    <string name="rest_notification_title">Rest is over</string>
+    <string name="rest_notification_text">Time for your next set.</string>
+    <!-- Juoksun kirjaus -->
+    <string name="run_log_title">Log run</string>
+    <string name="run_edit_title">Edit run</string>
+    <string name="date_label">Date</string>
+    <string name="change_date">Change date, %1$s</string>
+    <string name="run_distance_label">Distance (%1$s)</string>
+    <string name="run_duration_label">Duration</string>
+    <string name="run_hours">h</string>
+    <string name="run_minutes">min</string>
+    <string name="run_seconds">s</string>
+    <string name="run_pace">Pace %1$s /%2$s</string>
+    <string name="pace_value">%1$s /%2$s</string>
+    <string name="run_pace_empty">Pace appears when distance and duration are filled in.</string>
+    <string name="run_type_label">Run type</string>
+    <string name="run_type_easy">Easy</string>
+    <string name="run_type_tempo">Tempo</string>
+    <string name="run_type_intervals">Intervals</string>
+    <string name="run_type_long">Long</string>
+    <string name="run_type_other">Other</string>
+    <string name="run_effort_label">Effort</string>
+    <string name="run_error_distance">Enter a distance greater than zero.</string>
+    <string name="run_error_duration">Enter a duration greater than zero.</string>
+    <string name="run_error_time_parts">Minutes and seconds must be below 60.</string>
+    <string name="run_options">Run options</string>
+    <string name="run_delete_title">Delete run?</string>
+    <string name="run_delete_message">This run will be deleted.</string>
+    <string name="action_ok">OK</string>
+    <!-- Päivän kirjaus (check-in) -->
+    <string name="checkin_title_today">How are you today?</string>
+    <string name="checkin_title_other">Check-in</string>
+    <string name="checkin_close">Close</string>
+    <string name="checkin_sleep">Sleep</string>
+    <string name="checkin_energy">Energy</string>
+    <string name="checkin_soreness">Soreness</string>
+    <string name="checkin_symptoms">Midlife symptoms</string>
+    <string name="checkin_optional">Optional</string>
+    <string name="checkin_custom_symptom">+ Custom</string>
+    <string name="checkin_custom_symptom_title">Add a symptom</string>
+    <string name="checkin_symptom_name">Symptom name</string>
+    <string name="checkin_stored_locally">Stored only on this phone</string>
+    <string name="checkin_note_placeholder">Anything worth remembering?</string>
+    <string name="checkin_save">Save check-in</string>
+    <string name="checkin_options">Check-in options</string>
+    <string name="checkin_delete_title">Delete check-in?</string>
+    <string name="checkin_delete_message">This check-in will be deleted.</string>
+    <string name="checkin_not_answered">Not answered</string>
+    <string-array name="sleep_words">
+        <item>Poor</item>
+        <item>Below average</item>
+        <item>Okay</item>
+        <item>Good</item>
+        <item>Great</item>
+    </string-array>
+    <string-array name="energy_words">
+        <item>Very low</item>
+        <item>Low</item>
+        <item>Okay</item>
+        <item>Good</item>
+        <item>High</item>
+    </string-array>
+    <string name="soreness_none">None</string>
+    <string name="soreness_legs">Legs</string>
+    <string name="soreness_back">Back</string>
+    <string name="soreness_shoulders">Shoulders</string>
+    <string name="soreness_arms">Arms</string>
+    <string name="soreness_whole_body">Whole body</string>
+    <string name="summary_sleep">Sleep: %1$s</string>
+    <string name="summary_energy">Energy: %1$s</string>
+    <string name="summary_soreness">Soreness: %1$s</string>
+    <string name="summary_symptoms">Symptoms: %1$s</string>
+    <string name="summary_note">Note: %1$s</string>
+
+    <!-- Recovery-välilehti -->
+    <string name="recovery_title">Recovery</string>
+    <string name="recovery_today">Today</string>
+    <string name="add_today_checkin">Add today\'s check-in</string>
+    <string name="recovery_edit_today">Edit</string>
+    <string name="recovery_past">Earlier check-ins</string>
+    <string name="recovery_no_past">Check-ins you save will appear here.</string>
+    <!-- Today -->
+    <string name="greeting_morning">Good morning</string>
+    <string name="greeting_afternoon">Good afternoon</string>
+    <string name="greeting_evening">Good evening</string>
+    <string name="today_checkin_saved">Check-in saved</string>
+    <string name="chip_sleep">Sleep %1$s</string>
+    <string name="chip_energy">Energy %1$s</string>
+    <string name="week_title">This week</string>
+    <string name="week_strength">strength</string>
+    <string name="week_runs">runs</string>
+    <string name="week_distance_run">%1$s run</string>
+    <string name="marker_strength">strength</string>
+    <string name="marker_run">run</string>
+    <string name="today_marker">today</string>
+    <string name="last_activity">Last activity</string>
+    <string name="run_title">%1$s run</string>
+    <string name="duration_hours_minutes">%1$d h %2$d min</string>
+    <string name="duration_minutes">%1$d min</string>
+    <plurals name="completed_sets">
+        <item quantity="one">%d set</item>
+        <item quantity="other">%d sets</item>
+    </plurals>
+    <!-- Historia -->
+    <string name="history_title">History</string>
+    <string name="history_previous_month">Previous month</string>
+    <string name="history_next_month">Next month</string>
+    <string name="history_all_month">All of %1$s</string>
+    <string name="history_show_month">Show whole month</string>
+    <string name="history_empty_day">Nothing logged on this day.</string>
+    <string name="history_empty_month">Nothing logged this month.</string>
+    <string name="marker_checkin">check-in</string>
+    <string name="history_checkin_title">Check-in</string>
+
+    <!-- Harjoituksen tiedot ja muokkaus -->
+    <string name="session_detail_started">Started %1$s, %2$s</string>
+    <string name="session_effort">Effort %1$d of 10</string>
+    <string name="session_set_line">%1$d. %2$s × %3$d</string>
+    <string name="session_set_line_rpe">%1$d. %2$s × %3$d, RPE %4$d</string>
+    <string name="session_set_line_bodyweight">%1$d. %2$d reps</string>
+    <string name="session_edit">Edit</string>
+    <string name="session_save_as_routine">Save as routine</string>
+    <string name="session_delete">Delete session</string>
+    <string name="session_delete_title">Delete this session?</string>
+    <string name="session_delete_message">The session and all its sets will be deleted.</string>
+    <string name="session_save_changes">Save changes</string>
+    <string name="routine_saved">Routine saved</string>
+    <!-- Edistyminen -->
+    <string name="progress_title">Progress</string>
+    <string name="filter_all">All</string>
+    <string name="filter_strength">Strength</string>
+    <string name="filter_running">Running</string>
+    <string name="range_4_weeks">4 weeks</string>
+    <string name="range_8_weeks">8 weeks</string>
+    <string name="range_6_months">6 months</string>
+    <string name="range_1_year">1 year</string>
+    <string name="range_menu">Time range, %1$s</string>
+    <string name="progress_exercise_menu">Exercise, %1$s</string>
+    <string name="progress_heaviest">Heaviest set per session</string>
+    <string name="progress_from_to">%1$s to %2$s %3$s</string>
+    <string name="progress_percent">%1$s%%</string>
+    <string name="progress_need_two_sessions">Log at least two sessions to see a trend.</string>
+    <string name="progress_no_strength">No strength sessions in this time range.</string>
+    <string name="progress_weekly_distance">Weekly distance</string>
+    <string name="progress_distance_total">%1$s %2$s in total</string>
+    <string name="progress_need_two_weeks">Log runs in at least two weeks to see a trend.</string>
+    <string name="progress_avg_pace">Average pace per week</string>
+    <string name="progress_pace_was">was %1$s /%2$s</string>
+    <string name="progress_all_run_types">All types</string>
+    <string name="progress_no_runs">No runs in this time range.</string>
+    <string name="balance_title">Balance</string>
+    <string name="balance_by_time">By training time</string>
+    <string name="balance_strength">%1$d%% strength</string>
+    <string name="balance_running">%1$d%% running</string>
+    <string name="balance_empty">No training in this time range.</string>
+    <string name="consistency_title">Consistency</string>
+    <string name="consistency_detail">Weeks in a row with at least one training session, up to this week.</string>
+    <string name="chart_strength_description">Chart of the heaviest set in %1$d sessions</string>
+    <string name="chart_distance_description">Bar chart of weekly distance over %1$d weeks</string>
+    <string name="chart_pace_description">Chart of average pace in %1$d weeks</string>
+    <string name="chart_balance_description">%1$d percent strength, %2$d percent running, by training time</string>
+    <plurals name="run_count">
+        <item quantity="one">%d run</item>
+        <item quantity="other">%d runs</item>
+    </plurals>
+    <plurals name="consistency_weeks">
+        <item quantity="one">%d week</item>
+        <item quantity="other">%d weeks</item>
+    </plurals>
+    <!-- Oireiden hallinta -->
+    <string name="settings_manage_symptoms">Manage symptoms</string>
+    <string name="symptoms_title">Symptoms</string>
+    <string name="symptoms_add">Add symptom</string>
+    <string name="symptoms_new_title">New symptom</string>
+    <string name="symptoms_rename_title">Rename symptom</string>
+    <string name="symptoms_name_taken">A symptom with this name already exists.</string>
+    <string name="symptoms_archived_hint">Archived symptoms are hidden from the check-in. Earlier check-ins keep them.</string>
+
+    <!-- Asetukset -->
+    <string name="settings_units">Units</string>
+    <string name="settings_weight">Weight</string>
+    <string name="settings_distance">Distance</string>
+    <string name="settings_manage">Manage</string>
+    <string name="settings_data">Your data</string>
+    <string name="settings_export">Export data</string>
+    <string name="settings_export_detail">Save all data and settings to one file.</string>
+    <string name="settings_import">Import data</string>
+    <string name="settings_import_detail">Replace all data with an exported file.</string>
+    <string name="settings_delete_all">Delete all data</string>
+    <string name="settings_delete_all_detail">Remove all sessions, runs, check-ins, routines and your own exercises and symptoms.</string>
+    <string name="export_done">Data exported.</string>
+    <string name="export_failed">The file could not be saved.</string>
+    <string name="import_done">Data imported.</string>
+    <string name="import_error_unreadable">This file could not be read. Choose a file exported from Active40.</string>
+    <string name="import_error_newer">This file was exported from a newer version of Active40. Update the app to import it.</string>
+    <string name="import_error_invalid">This file contains data that does not fit together, so it was not imported.</string>
+    <string name="import_confirm_title">Replace all data?</string>
+    <string name="import_summary_exported">Exported %1$s</string>
+    <string name="import_replace_warning">Everything currently in the app will be replaced with the contents of this file.</string>
+    <string name="import_confirm">Replace data</string>
+    <plurals name="summary_sessions">
+        <item quantity="one">%d strength session</item>
+        <item quantity="other">%d strength sessions</item>
+    </plurals>
+    <plurals name="summary_runs">
+        <item quantity="one">%d run</item>
+        <item quantity="other">%d runs</item>
+    </plurals>
+    <plurals name="summary_checkins">
+        <item quantity="one">%d check-in</item>
+        <item quantity="other">%d check-ins</item>
+    </plurals>
+    <plurals name="summary_routines">
+        <item quantity="one">%d routine</item>
+        <item quantity="other">%d routines</item>
+    </plurals>
+    <string name="delete_all_title">Delete all data?</string>
+    <string name="delete_all_message">This removes all sessions, runs, check-ins, routines and your own exercises and symptoms from this phone. Settings are kept. This cannot be undone. Type DELETE to confirm.</string>
+    <string name="delete_all_word">DELETE</string>
+    <string name="delete_all_label">Type DELETE</string>
+    <string name="delete_all_done">All data deleted.</string>
+    <string name="settings_about">About</string>
+    <string name="settings_version">Version %1$s</string>
+    <string name="settings_privacy">All your data stays on this phone. Active40 has no account and does not connect to the internet. Data leaves the phone only when you export it yourself.</string>
+    <string name="backup_file_name">active40-backup-%1$s.json</string>
+
+    <!-- Käyttöönotto -->
+    <string name="onboarding_units_title">Choose your units</string>
+    <string name="onboarding_units_body">You can change these later in Settings.</string>
+    <string name="onboarding_continue">Continue</string>
+    <string name="onboarding_symptoms_title">Midlife symptoms</string>
+    <string name="onboarding_symptoms_body">Active40 can also record midlife symptoms such as night sweats or joint aches in your daily check-in. This is optional, and you can change it later in Settings.</string>
+    <string name="onboarding_turn_on">Turn on</string>
+    <string name="onboarding_not_now">Not now</string>
+    <string name="onboarding_step">Step %1$d of %2$d</string>
+</resources>

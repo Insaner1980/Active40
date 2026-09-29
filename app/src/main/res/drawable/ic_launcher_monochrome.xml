@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Teemakuvake (Android 13+): samat muodot yhdellä värillä. -->
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M36,40H50A4,4 0,0 1,54 44V58A4,4 0,0 1,50 62H36A4,4 0,0 1,32 58V44A4,4 0,0 1,36 40Z" />
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M67,51m-11,0a11,11 0,1 1,22 0a11,11 0,1 1,-22 0" />
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M35,69H73A3,3 0,0 1,76 72A3,3 0,0 1,73 75H35A3,3 0,0 1,32 72A3,3 0,0 1,35 69Z" />
+</vector>

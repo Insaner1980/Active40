@@ -1,0 +1,14 @@
+*.iml
+.gradle
+.kotlin
+/local.properties
+/.idea
+/.claude/settings.local.json
+.DS_Store
+/build
+/app/build
+/reports/
+/captures
+.externalNativeBuild
+.cxx
+*.hprof

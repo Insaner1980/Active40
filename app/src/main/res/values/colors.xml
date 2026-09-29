@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Vain ikkunan taustalle ennen Composea (estää valkoisen välähdyksen).
+         Vastaa Active40Colors.kt:n backgroundBottom-tokenia, joka on värien ainoa lähde Compose-puolella. -->
+    <color name="window_background">#FF2C4642</color>
+    <!-- Sovelluskuvakkeen värit: vastaavat Active40Colors.kt:n accentStrength- ja accentRun-tokeneita. -->
+    <color name="icon_strength">#FFF2A66F</color>
+    <color name="icon_run">#FFD3E57C</color>
+    <color name="icon_line">#FFFFFFFF</color>
+</resources>
